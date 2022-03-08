@@ -1,0 +1,33 @@
+en:
+  'Browse:': 'Browse'
+  Home: 'Home'
+
+  brand:
+    title: "Penn State University Libraries ArchivesSpace"
+    welcome_head: "Penn State University Libraries Special Collections & Archives"
+    welcome_message: "Your friendly archives management tool."
+    welcome_search_label: ""
+
+  repository:
+    _plural: "Repositories"
+
+  resource:
+    _plural: "Collections"
+
+  digital_object:
+    _plural: "Digital Materials"
+
+  accession:
+    _plural: "Accessions"
+
+  subject:
+    _plural: "Subjects"
+
+  agent:
+    _plural: "Agents"
+
+  classification:
+    _plural: "Classifications"
+
+  unprocessed:
+    "Accessions"

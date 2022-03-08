@@ -1,0 +1,31 @@
+<%= render "shared/above_footer_content" %>
+<div class="container-fluid footer">
+  <div class="row-fluid">
+    <div class="col-sm-12">
+
+        <div class="col-sm-4">
+
+          <ul class="address">
+            <li>Penn State University Libraries ArchivesSpace</li>
+            <li>Paterno Library, University Park</li>
+            <li></li>
+
+            <li>(814) 865-6368</li>
+          </ul>
+        </div>
+
+      <div class="col-sm-8 links">
+        <p> <a href="<%= AppConfig[:frontend_proxy_url] %>">Staff Interface</a> |  <a href="http://archivesspace.org">ArchivesSpace.org</a> | Hosted by <a href="http://www.lyrasis.org/">LYRASIS</a> <img src="<%= AppConfig[:public_proxy_prefix] %>assets/lyrasis_star.png" alt="LYRASIS Logo"/></p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  var ez = document.querySelectorAll("a[href*=ezproxy");
+  for (var i = 0; i < ez.length; ++i) {
+    var link = ez[i];
+    link.innerHTML = link.innerHTML.replace(/https?:\/\/ezproxy.*url=/, '');
+  }
+</script>
+<!-- footer_extra_content (i.e. below_footer_content) -->
+<%= render "shared/footer_extra_content" %>
