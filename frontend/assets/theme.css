@@ -1,16 +1,5 @@
-body {
-  background: @0a0f15 url('/assets/pennstate.png') repeat top left;
-  background-size: contain;
-}
-
-header img {
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
-header + .content-pane { margin-top: ; }
-
-header { background-color: #0A0F15 }
+header { background-color: #0A0F15; }
+header img { margin: 2em 0; }
 
 /* remove staff ui inset appearance of header */
 body > div.container-fluid:first-child {

@@ -1,8 +1,0 @@
-en:
-  welcome:
-    heading: ""
-    message: ""
-    message_logged_in: "Your friendly archives management tool."
-
-  navbar:
-    brand: "Penn State University Libraries ArchivesSpace Staff Login"
