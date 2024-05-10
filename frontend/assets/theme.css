@@ -11,3 +11,22 @@ body > div.container-fluid:first-child {
 #oai_config > h3 + div {
   display: none;
 }
+
+/* announcement styles */
+
+.bg-warning {
+  background-color: #ffc107 !important;
+}
+
+.announcement {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #6c757d;
+}
+
+/* this isn't awesome but it will do until ArchivesSpace runs Bootstrap 4 and
+   I can use align-items */
+.text-announcement {
+  margin-bottom: 0;
+  padding: 10px 0;
+}
