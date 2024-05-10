@@ -1,12 +1,14 @@
 <%= setup_context :title => "Home", :suppress_breadcrumb => true %>
 
-<%# optionally display a frontend announcement %>
-<% if AppConfig[:display_frontend_announcement] %>
-  <div class="row announcement bg-warning">
-    <div class="col-xs-12">
-      <blink><p class="text-center text-announcement"> <%= t('messages.announcement').html_safe %></p></blink>
+<%# optionally display a frontend announcement (only if users are not logged in) %>
+<% if !session[:user] %>
+  <% if AppConfig[:display_frontend_announcement] %>
+    <div class="row announcement bg-warning">
+      <div class="col-xs-12">
+        <blink><p class="text-center text-announcement"> <%= t('messages.announcement').html_safe %></p></blink>
+      </div>
     </div>
-  </div>
+  <% end %>
 <% end %>
 
 <div class="row">
