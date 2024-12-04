@@ -3,8 +3,8 @@
 <%# optionally display a frontend announcement (only if users are not logged in) %>
 <% if !session[:user] %>
   <% if AppConfig[:display_frontend_announcement] %>
-    <div class="d-flex px-2 announcement bg-warning">
-      <div class="mb-0 flex-grow-1 text-announcement">
+    <div class="d-flex p-2 announcement bg-warning">
+      <div class="mb-0 flex-grow-1 text-center text-announcement">
         <%= t('messages.announcement').html_safe %>
       </div>
     </div>
