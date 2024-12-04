@@ -1,5 +1,6 @@
-header { background-color: #0A0F15; }
+/* header { background-color: #0A0F15; } */
 header img { margin: 2em 0; }
+.global-header-nav { background-color: #0a0f15; }
 
 /* remove staff ui inset appearance of header */
 body > div.container-fluid:first-child {
@@ -19,14 +20,6 @@ body > div.container-fluid:first-child {
 }
 
 .announcement {
-  font-size: 1.5rem;
   font-weight: bold;
   border-bottom: 3px solid #6c757d;
-}
-
-/* this isn't awesome but it will do until ArchivesSpace runs Bootstrap 4 and
-   I can use align-items */
-.text-announcement {
-  margin-bottom: 0;
-  padding: 10px 0;
 }
