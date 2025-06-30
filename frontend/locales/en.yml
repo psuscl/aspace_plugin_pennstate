@@ -2,3 +2,5 @@ en:
   messages:
     announcement: >
       📢 This is Penn State's ArchivesSpace testing site. Some things might be broken!
+  welcome:
+    message: This site is used by Penn State archivists to process and describe collections. If you wish to review and request materials, please click through to <a href='https://archives.libraries.psu.edu'>our finding aids</a>.
