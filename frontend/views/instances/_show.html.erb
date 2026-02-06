@@ -17,7 +17,9 @@
   <h3><%= t('instance._plural') %></h3>
   <div class="details my-3" id="instances_accordion">
     <% instances.each_with_index do | instance, index | %>
-      <% dao_label = get_dao_label(instance) %>
+      <% if instance['instance_type'] == "digital_object" %>
+        <% dao_label = get_dao_label(instance) %>
+      <% end %>
 
       <div class="card mb-3">
         <div class="card-header panel-heading">
