@@ -13,6 +13,9 @@ body > div.container-fluid {
   display: none;
 }
 
+/* fix weird row things */
+.subrecord-form-container .row { margin-left: 0px; margin-right: 0px; }
+
 /* announcement styles */
 
 .bg-warning {
