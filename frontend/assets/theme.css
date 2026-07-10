@@ -3,7 +3,7 @@ header img { margin: 2em 0; }
 .global-header-nav { background-color: #0a0f15; }
 
 /* remove staff ui inset appearance of header */
-body > div.container-fluid:first-child {
+body > div.container-fluid {
   padding-left: 0px;
   padding-right: 0px;
 }
